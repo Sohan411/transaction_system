@@ -1,0 +1,129 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.navbar-brand{
+    font-size: 1.9rem !important;
+    color: #535687 !important;
+}
+
+.navbar a{
+    font-size: 1.3rem;
+    text-transform: capitalize;
+}
+
+.menu_active {
+    font-weight: bold;
+    border-bottom: 1px solid #535687;
+}
+
+.navbar a:hover {
+    color: #3498db !important;
+}
+
+.btn-get-started{
+    color: #3498db;
+    background-color: transparent;
+    padding:15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 2px solid #3498db;
+    border-radius: 30px;
+    text-decoration: none;
+    transition: 0.5s;
+    
+}
+.btn-get-started:hover{
+    background-color: #3498db;
+    color: white;
+}
+
+.brand-name{
+    color: #3498db;
+}
+.main{
+  padding-top: 120px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  align-items: center;
+}
+
+
+.content{
+    display: flex;
+    align-items: center;
+}
+
+.animated{
+    animation: fadeInFromTop infinite ease 2s, floating alternate-reverse infinite ease 5s ;
+    transition: all 0.7s ease-out allow-discrete;
+}
+
+@keyframes fadeInFromTop {
+    from{
+        /* opacity: 0; */
+        transform: translateY(5%);
+    }
+    to{
+        /* opacity: 1; */
+        transform: translateY(0%);
+    }
+}
+
+@keyframes floating {
+    0%{
+        transform: translate(0%, 0%) rotate(360deg);
+    }
+    25%{
+        transform: translate(2%, 6%) rotate(360deg);
+    }
+    50%{
+        transform: translate(2%, 6%) rotate(360deg);
+    }
+    75%{
+        transform: translate(0%, 0%) rotate(360deg);
+    }
+    100%{
+        transform: translate(0%, 0%) rotate(360deg);
+    }
+}
+
+
+/* Footer Card  */
+
+.photo{
+    height: 250px;
+    
+}
+.cardPostPara{
+    font-size: larger;
+}
+.cardPost{
+    color: rgb(26, 157, 26);
+}
+
+.imageContainer{
+    display: flex;
+    gap: 100px;
+}
+
+.cardPostName{
+    color: #3498db;
+}
+.cardPostSecondName{
+    color: rgb(26, 157, 26);
+}
+
+/* Mode */
+
+.navbar-brand{
+    color: black;
+    font-weight: bolder;
+}
+.nav-item{
+    color: black;
+    font-weight: bolder;
+}
